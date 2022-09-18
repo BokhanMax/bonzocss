@@ -1,6 +1,18 @@
-$blue-color: #0085bf
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap')
+
+$montserrat: 'Montserrat', sans-serif
+$weight-light: 300
+$weight-normal: 400
+$weight-medium: 500
+$weight-semibold: 600
+$weight-bold: 700
+
+// Colors
+$blue-color: #00b3e3
 $black-color: #222222
 
+// Sizes
 $size-1: 5rem
 $size-2: 4rem
 $size-3: 3rem
@@ -9,8 +21,7 @@ $size-5: 1.5rem
 $size-6: 1rem
 $size-7: 0.75rem
 
-$weight-light: 300
-$weight-normal: 400
-$weight-medium: 500
-$weight-semibold: 600
-$weight-bold: 700
+@mixin box-shadow($value)
+    -webkit-box-shadow: $value
+    -moz-box-shadow: $value
+    box-shadow: $value
