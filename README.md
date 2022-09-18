@@ -1,7 +1,5 @@
 # Bonzo CSS
 
-# Bonzo PHP
-
 ## Small responsive CSS framework for easyway web development
 
 > Bonzo is a nickname of John Bonham, the drummer of rock'n'roll legends Led Zeppelin
