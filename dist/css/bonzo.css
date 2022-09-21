@@ -1,6 +1,6 @@
 /*! BonzoCSS v0.01a | MIT License | getbonzo.org */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,600&display=swap");
 html,
 body,
 p,
@@ -276,36 +276,15 @@ th:not([align]) {
 }
 
 .bz_button_big {
-  font-size: 1.5rem;
+  font-size: 20px;
+  line-height: 57px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", sans-serif;
   color: white;
-  text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 5px;
-  background-color: #00b3e3;
-  padding: 2% 6%;
-  border-radius: 10px;
-  border: transparent;
-  -webkit-box-shadow: 5px 8px 4px 0px rgba(0, 179, 227, 0.19);
-  -moz-box-shadow: 5px 8px 4px 0px rgba(0, 179, 227, 0.19);
-  box-shadow: 5px 8px 4px 0px rgba(0, 179, 227, 0.19);
-}
-
-.bz_button_outset_big {
-  font-size: 1.5rem;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-  color: #00b3e3;
   text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 5px;
-  border-color: #00b3e3;
-  background-color: white;
-  padding: 2% 6%;
-  border-radius: 10px;
-  border: 2px solid;
-  -webkit-box-shadow: 5px 8px 4px 0px rgba(0, 179, 227, 0.19);
-  -moz-box-shadow: 5px 8px 4px 0px rgba(0, 179, 227, 0.19);
-  box-shadow: 5px 8px 4px 0px rgba(0, 179, 227, 0.19);
+  letter-spacing: 0.2em;
+  padding: 19px 40px;
+  background: linear-gradient(106.75deg, #2272FF 0%, #0D03C3 100%);
+  border-radius: 40px;
 }
