@@ -1,6 +1,6 @@
 {
   "compile-hero": {
-    "disable-compile-files-on-did-save-code": false,
+    "disable-compile-files-on-did-save-code": true,
     "notification-toggle": true,
     "javascript-output-directory": "./dist/js",
     "javascript-output-toggle": false,
